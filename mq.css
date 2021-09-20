@@ -1,0 +1,21 @@
+@media only screen and (max-width: 10724px) and (min-width:320px){
+nav{
+    display: none;
+}
+    .ab, .ab1{
+    display: none   ;
+}
+.gallery img{
+    width: fit-content;
+}
+.two2 img{
+    width: 80%;
+}
+footer{
+    padding: 0;
+}
+.social-links{
+    width: 107%;
+    flex-direction: column;
+}
+}
