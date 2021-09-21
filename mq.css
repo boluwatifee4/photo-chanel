@@ -40,8 +40,8 @@
     display: none   ;
 }
 .logo{
-    position: absolute;
-    width: 15%;
+    max-height: 100px;
+    width: 13%;
     border-radius: 3.5rem;
 }
 .hero{
