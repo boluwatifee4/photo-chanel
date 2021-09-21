@@ -217,6 +217,7 @@ hr{
     margin: 10px;
 }
 .gallery img:hover{
+    opacity: .73;
     width: 390px;
     border-radius: 1rem;
     transition:  1s ease-in-out;

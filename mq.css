@@ -14,7 +14,7 @@
 }
 .hero{
     left: 1%;
-    top: 27%;
+    top: 22%;
     padding: 1rem 3rem;
 }
 .skil{
@@ -51,13 +51,16 @@ footer{
 .footer-icons p{
     padding: 1rem 0;
 }
+.footer-icons a:nth-child(1){
+    padding-left: 0;
+}
 .footer-links p{
     font-size: .9rem;
 }
-/*.two2 img{
-    width: 80%;
+.gallery img{
+    width: 395px;
 }
-footer{
+/*footer{
     padding: 0;
 }
 .social-links{
