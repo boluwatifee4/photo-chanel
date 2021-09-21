@@ -39,17 +39,21 @@ header{
     align-items: center;
     justify-content: center;
     margin: 1rem 1rem;
-    top: 37%;
-    left: 24%;
+    top: 34%;
+    left: 16.3%;
 }
 .hero h3{
     font-size: 2.5rem;
+    color: white;
 }
-.hero span{
+.skil{
+    font-size: 1.5rem;
+}
+.hero{
     font-size: 1rem;
     font-weight: 500;
     color: black;
-    background-color: #FEFCF9;
+    background-color: transparent;
     padding: .5rem .5rem;
     border-radius: 1.5rem;
     box-shadow: 0 2px 29px rgba(0,0,0,0.5);
