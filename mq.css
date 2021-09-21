@@ -68,6 +68,10 @@ footer{
 .gallery img{
     width: 290px;
 }
+video{
+    width: 290px;
+
+}
 /*footer{
     padding: 0;
 }

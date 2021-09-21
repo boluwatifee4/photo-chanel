@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -43,7 +43,7 @@ header{
     justify-content: center;
     margin: 1rem 1rem;
     top: 34%;
-    left: 14%;
+    left: 17%;
 }
 .hero h3{
     font-size: 2.5rem;
@@ -98,11 +98,9 @@ nav, ul, li, a{
     color: white ;
     padding: 1rem;
 }
-
-.hr{
-    
-   
-    
+nav ul a:hover{
+    transition: 1s ease-in-out;
+    font-size: 1.5rem;
 }
 .logo{
     border-radius: 2rem;
@@ -174,12 +172,14 @@ nav, ul, li, a{
   #aboutMe h1::after{
     margin: 0 1rem;
     content: " ";
+    background-color: #ff4500;
     border: 2px solid #ff4500 ;
     width: 100%;
 }
 #aboutMe h1::before{
     margin: 0 1rem;
     content: " ";
+    background-color: #ff4500;
     border: 2px solid #ff4500 ;
     width: 100%;
 }
@@ -209,7 +209,15 @@ nav, ul, li, a{
     align-items: center;
     height: fit-content;
 }
-
+.abt-sel label{
+    font-family: 'Satisfy', cursive;
+    padding: 0 .5rem;
+}
+.abt-sel label:hover{
+    transition: 1s ease-in-out;
+    color: #ff4500;
+    font-size: 1.5rem;
+}
 .abt-sel h1{
  margin: 2rem 2rem;
  margin-top: 5rem;
@@ -218,18 +226,31 @@ nav, ul, li, a{
     margin: 0 1rem;
     content: " ";
     border: 2px solid #ff4500 ;
+    background-color: #ff4500;
     width: 100%;
 }
 .abt-sel h1::before{
     margin: 0 1rem;
     content: " ";
     border: 2px solid #ff4500 ;
+    background-color: #ff4500;
     width: 100%;
 }
 .gallery img{
     width: 425px;
     height: 240px;
     margin: 10px;
+}
+video{
+    width: 425px;
+    height: 240px;
+    margin: 10px;
+}
+video:hover{
+    opacity: .73;
+    width: 390px;
+    border-radius: 1rem;
+    transition:  1s ease-in-out;
 }
 .gallery img:hover{
     opacity: .73;
