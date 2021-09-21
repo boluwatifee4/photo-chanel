@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 *{
     margin: 0;
@@ -9,7 +10,9 @@
    text-decoration: none;
    scroll-behavior: smooth;
    font-family: 'Roboto', sans-serif;
-   /* background-color: #080518; */
+}
+body{
+    background-color:#faf8f0; 
 }
 header{ 
    z-index: 1;
@@ -51,6 +54,7 @@ header{
 }
 .skil{
     font-size: 1.5rem;
+    font-family: 'Pacifico', cursive;
 }
 .hero{
     font-size: 1rem;
@@ -64,7 +68,7 @@ header{
 .skills, p{
     margin-bottom: 1rem;
     font-size: 1rem;
-   font-family: 'Roboto', sans-serif;
+   font-family: 'Patrick Hand', cursive;
 }
  .skills{
      background-color: transparent !important;
@@ -81,6 +85,9 @@ header{
 .skills, button:hover{
     font-size: 1.7rem;
     transition: ease-in-out .5s;
+}
+.mq{
+    display: none;
 }
 nav{
     display: flex;
@@ -292,6 +299,9 @@ video:hover{
 .pre-footer button::before{
     content: "";
     background-color: #ff4500;
+}
+.pre-footer a button{
+    padding: .4rem .6rem;
 }
 footer{
    font-family: 'Patrick Hand', cursive;

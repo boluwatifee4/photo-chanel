@@ -1,9 +1,36 @@
 @media only screen and (max-width: 1024px) and (min-width:320px){
     header{
         margin: 0 .5rem;
+        display: flex;
+        justify-content: space-between;
     }
     nav{
        display: none;
+}
+.mq{
+    display: flex;
+    z-index: 5;
+
+}
+.mq ul{
+    padding: .1rem;
+    margin-top: .8rem;
+}
+.mq ul li{
+    padding: .4rem;
+}
+.mq ul li{
+    display: inline;
+    color: white;
+    font-size: .7rem;
+}
+.mq ul li a{
+    padding: .1rem;
+}
+.mq ul li a:hover{
+    font-size: .9rem;
+    color: #ff4500;
+    transition: 1s ease-in-out;
 }
 
 .icons{
@@ -24,6 +51,9 @@
 }
 .skil{
     font-size: 1rem;
+}
+.hero button a{
+    font-size: 1.3rem;
 }
 #aboutMe{
     margin: 5rem .5rem;
