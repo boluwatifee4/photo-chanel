@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Gluten&family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -6,6 +8,7 @@
    list-style-type: none;
    text-decoration: none;
    scroll-behavior: smooth;
+   font-family: 'Roboto', sans-serif;
    /* background-color: #080518; */
 }
 header{ 
@@ -40,7 +43,7 @@ header{
     justify-content: center;
     margin: 1rem 1rem;
     top: 34%;
-    left: 16.3%;
+    left: 14%;
 }
 .hero h3{
     font-size: 2.5rem;
@@ -61,6 +64,7 @@ header{
 .skills, p{
     margin-bottom: 1rem;
     font-size: 1rem;
+   font-family: 'Roboto', sans-serif;
 }
  .skills{
      background-color: transparent !important;
@@ -95,12 +99,9 @@ nav, ul, li, a{
     padding: 1rem;
 }
 
-hr{
-    position: absolute;
-    width: 8%;
-    left: 47.5%;
-    top: 137.4%;
-    border-top: #ff4500  2px solid;
+.hr{
+    
+   
     
 }
 .logo{
@@ -170,7 +171,20 @@ hr{
   #aboutMe h1{
       margin: 1rem;
   }
+  #aboutMe h1::after{
+    margin: 0 1rem;
+    content: " ";
+    border: 2px solid #ff4500 ;
+    width: 100%;
+}
+#aboutMe h1::before{
+    margin: 0 1rem;
+    content: " ";
+    border: 2px solid #ff4500 ;
+    width: 100%;
+}
   #aboutMe p{
+   font-family: 'Roboto', sans-serif;
       font-size: 1.25rem;
       padding: 0 8rem;
   }
@@ -195,6 +209,7 @@ hr{
     align-items: center;
     height: fit-content;
 }
+
 .abt-sel h1{
  margin: 2rem 2rem;
  margin-top: 5rem;
@@ -258,13 +273,22 @@ hr{
     background-color: #ff4500;
 }
 footer{
+   font-family: 'Patrick Hand', cursive;
+
     background-color: black;
     padding: 4rem 0;
 }
 .social-links{
+   font-family: 'Patrick Hand', cursive;
     margin: 0 2rem;
     display: flex;
     justify-content: space-between;
     color: white;
    
 }
+.footer-links p{
+   font-family: 'Patrick Hand', cursive;
+}
+.social-links p{
+    font-family: 'Patrick Hand', cursive;
+ }
