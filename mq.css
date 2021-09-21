@@ -1,14 +1,54 @@
 @media only screen and (max-width: 10724px) and (min-width:320px){
- nav{
+    header{
+        margin: 0 .5rem;
+    }
+    nav{
     display: none;
 }
     .ab, .ab1{
     display: none   ;
 }
-/*.gallery img{
-    width: fit-content;
+.logo{
+    width: 20%;
+    border-radius: 3.5rem;
 }
-.two2 img{
+.hero{
+    left: 1%;
+    top: 28%;
+}
+.spa {
+    margin-top: 5rem;
+    padding-top: 1rem;
+}
+#aboutMe{
+    margin: 8rem .5rem;
+    padding: 1rem .5rem;
+}
+#aboutMe p{
+    padding: 0 .5rem;
+    font-size: .9rem;
+}
+hr{
+    position: absolute;
+    width: 25%;
+    left: 40.9%;
+    top: 113.8%;
+    border-top: #ff4500  1px solid;
+    
+}
+footer{
+    padding: 1rem 0;
+}
+.social-links{
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 1rem .8rem;
+    gap: .1rem;
+}
+.footer-icons p{
+    padding: 1rem 0;
+}
+/*.two2 img{
     width: 80%;
 }
 footer{
