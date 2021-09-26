@@ -171,7 +171,7 @@ nav ul a:hover{
 .ab{
     position: absolute;
     left: -1%;
-    top: 170%;
+    top: 200%;
     z-index: -10;
 }
 .ab1{
@@ -329,4 +329,8 @@ footer{
 }
 .social-links p{
     font-family: 'Patrick Hand', cursive;
+ }
+ audio{
+     width: 100%;
+     opacity: .7;
  }
